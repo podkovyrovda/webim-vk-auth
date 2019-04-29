@@ -1,0 +1,17 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+    padding: 6px 10px 6px 10px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    font-size: 14px;
+}
+
+.user__image {
+    width: 34px;
+    margin-right: 10px;
+    border-radius: 50%;
+}

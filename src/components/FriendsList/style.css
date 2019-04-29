@@ -1,0 +1,40 @@
+.friends-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+    padding: 6px 10px 8px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+    font-size: 12px;
+}
+
+.friends-list:after {
+    content: "";
+    flex: auto;
+    justify-content: flex-start;
+}
+
+.friends-list__title {
+    width: 100%;
+    padding: 0 5px;
+    line-height: 34px;
+}
+
+.friends-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70px;
+    padding: 6px 0 5px;
+    color: #2a5885;
+    font-size: 12px;
+}
+
+.friends__image {
+    width: 50px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}

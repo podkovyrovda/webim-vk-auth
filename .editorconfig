@@ -1,0 +1,12 @@
+# Корневой файл EditorConfig
+root = true
+
+# Для всех файлов используем unix-совместимые переносы строк
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Используем табы для отступов (Не указываем размер)
+[*.js]
+indent_style = tab
+indent_size = 2

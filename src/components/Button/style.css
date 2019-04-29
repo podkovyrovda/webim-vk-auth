@@ -1,0 +1,29 @@
+.vk-auth__button {
+    padding: 7px 16px 8px;
+    margin: 15px 0 0 0;
+    font-size: 12.5px;
+    cursor: pointer;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: #5181b8 none;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vk-auth__button:hover {
+    background-color: #5b88bd;
+}
+
+.vk-auth__button:active {
+    background-color: #4872a3;
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+.vk-auth__button--login {
+    margin-top: 76px;
+}

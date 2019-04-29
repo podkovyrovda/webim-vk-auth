@@ -1,0 +1,6 @@
+.vk-auth {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    margin: 0 auto;
+}
